@@ -1,0 +1,96 @@
+html, body
+{
+    height: 100%;
+    margin: 0;
+}
+
+body
+{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.sidebar
+{
+    background: linear-gradient(to bottom, #171717 0%,#171717 37%, #FF5F1F);
+    display: grid;
+    grid-template-rows: 0.5fr 2fr 1fr 1fr 2fr;
+}
+h2
+{
+    color:#FF5F1F;
+    border-style: solid;
+    border-color: #171717;
+    border-width: 1px;
+    border-radius: 50%;
+    padding: 7px;
+    box-shadow: 5px 0px 2px -1px #ffffff;
+}
+
+.sidebarOptions
+{
+    display: inline-grid;
+    grid-template-columns: 1fr ;
+    align-content: center;
+    gap: 20px;
+}
+img
+{
+    align-self: center;
+
+}
+.card
+{
+    display: grid;
+    margin-left: 20px;
+    grid-template-columns: 20% 50% 1fr;
+}
+.cardText
+{
+    padding: 3px;
+    font-weight: bold;
+    color: #fef2f2;
+    font-size: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #FF5F1F;
+    box-shadow: 0px 0px 10px 1px #FF5F1F ;
+}
+.dashboard
+{
+    display: grid;
+    align-items: center;
+    margin-left: 20px;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.settingsOptions
+{
+    display: grid;
+    grid-row: 3/5;
+    align-self: center;
+    gap: 20px;
+}
+
+.cardText2
+{
+    padding: 3px;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #000000;
+    box-shadow: 0px 0px 10px 2px #000000 ;
+}
+
+.mainBody
+{
+    background-color: #1e293b;
+}
+.icon
+{
+    justify-self: center;
+}
