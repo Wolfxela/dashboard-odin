@@ -1,4 +1,7 @@
-
+:root
+{
+    --mainColor: #e14000;
+}
 
 body, .sidebar, .card, .dashboard,.announcementsContainer,.newsProject, .settingsOptions,.projectText,.projectFrame,.project, .projectsContainer, .sidebarOptions, .mainBody, .header, .searchBarContainer, .searchBar, .subscribeContent, .profileImg, .name, .accountIcon, .profileImg2, .mediaOptions, .mainContent
 {
@@ -20,12 +23,12 @@ body
 
 .sidebar
 {
-    background: linear-gradient(to bottom, #171717 0%,#171717 37%, #FF5F1F);
+    background: linear-gradient(to bottom, #171717 0%,#171717 37%, var(--mainColor));
     grid-template-rows: 0.5fr 2fr 1fr 1fr 2fr;
 }
 h2
 {
-    color:#FF5F1F;
+    color:var(--mainColor);
     border-style: solid;
     border-color: #171717;
     border-width: 1px;
@@ -58,8 +61,8 @@ img
     border-style: solid;
     border-width: 1px;
     border-radius: 5px;
-    border-color: #FF5F1F;
-    box-shadow: 0px 0px 10px 1px #FF5F1F ;
+    border-color: var(--mainColor);
+    box-shadow: 0px 0px 10px 1px var(--mainColor) ;
 }
 .dashboard
 {
@@ -112,7 +115,7 @@ img
 
 .searchBar
 {
-    background: linear-gradient(to left,#171717,#171717, #FF5F1F);
+    background: linear-gradient(to left,#171717,#171717, var(--mainColor));
     height: 40px;
     border-style: solid;
     border-color: white;
@@ -136,7 +139,7 @@ img
 
 .profileImg, .profileImg2
 {
-    background-color: #FF5F1F;
+    background-color: var(--mainColor);
     align-self: center;
     border-style: solid;
     border-color: white;
@@ -207,7 +210,7 @@ font-size: 10px;
     height: 40%;
     border-radius: 100px;
     box-shadow: 0px 0px 10px 1px #ffffff ;
-    background-color: #FF5F1F;
+    background-color: var(--mainColor);
     font-weight: bold;
     color: #ffffff;
 }
@@ -247,14 +250,14 @@ font-size: 10px;
 .projectFrame
 {
     border-radius: 20px;
-    background: linear-gradient(to top right,#171717,#FF5F1F 50%, #171717);
+    background: linear-gradient(to top right,#171717,var(--mainColor)50%, #171717);
     border-style: solid;
     border-color: white;
     border-width: 1px; 
 }
 .projectFrame:hover
 {
-    box-shadow: 0px 0px 10px 1px #ff5f1f;
+    box-shadow: 0px 0px 10px 1px var(--mainColor);
 }
 .project, .newsProject
 {
